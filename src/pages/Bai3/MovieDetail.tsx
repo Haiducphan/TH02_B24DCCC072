@@ -69,7 +69,7 @@ export default function MovieDetailPage() {
                         <strong>Đạo diễn:</strong> {movie.Director}
                     </p>
                     <p>
-                        <strong>IMDb Rating:</strong> ⭐ {movie.imdbRating}
+                        <strong>IMDb Rating:</strong>  {movie.imdbRating}
                     </p>
                     <p style={{ marginTop: 10 }}>
                         <strong>Tóm tắt:</strong> {movie.Plot}
