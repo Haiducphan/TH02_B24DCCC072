@@ -93,7 +93,7 @@ export default function CurrencyConverter() {
                 </button>
             </div>
 
-            {loading && <p>⏳ Đang tải dữ liệu...</p>}
+            {loading && <p> Đang tải dữ liệu...</p>}
             {error && <p style={{ color: "red" }}>{error}</p>}
 
             {result !== null && !loading && !error && (
